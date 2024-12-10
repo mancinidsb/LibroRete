@@ -90,7 +90,10 @@ DATABASES = {
     'OPTIONS': {
             'charset': 'utf8mb4',
         },
-    } 
+    },
+    'TEST': {
+        'MIRROR': 'default',
+    },
 }
 
 
